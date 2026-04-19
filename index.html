@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GiftHeart — Emotions, Delivered</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ─── TOAST ─── -->
+  <div class="toast" id="toast"></div>
+
+  <!-- ─── NAV ─── -->
+  <nav id="navbar">
+    <div class="logo">Gift<span>Heart</span></div>
+    <ul>
+      <li><a href="#sorry">I'm Sorry</a></li>
+      <li><a href="#love">I Love You</a></li>
+      <li><a href="#miss">I Miss You</a></li>
+      <li><a href="#auth" class="nav-cta">Sign In</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero">
+    <div class="hero-label">Emotions, Beautifully Delivered</div>
+    <h1>Say it with<br><em>something real</em></h1>
+    <p>Curated gifts for every feeling — because some things deserve more than words.</p>
+    <div class="hero-feelings">
+      <a href="#sorry"><div class="feeling-pill pill-sorry">I'm Sorry</div></a>
+      <a href="#love"><div class="feeling-pill pill-love">I Love You</div></a>
+      <a href="#miss"><div class="feeling-pill pill-miss">I Miss You</div></a>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ─── SORRY SECTION ─── -->
+  <section class="section section-sorry" id="sorry">
+    <div class="section-inner">
+      <div class="section-number">01</div>
+      <div class="split">
+        <div class="split-content">
+          <div class="section-tag">A gentle apology</div>
+          <div class="accent-bar"></div>
+          <h2 class="section-title">I'm<br>Sorry</h2>
+          <p class="section-sub">When words fall short, let a carefully chosen gift open the door. Blues and silvers — the colours of sincerity and calm.</p>
+          <div class="products">
+
+            <div class="product-card product-sorry">
+              <div class="product-img">
+                🕊️
+                <span class="bestseller-badge">Bestseller</span>
+              </div>
+              <div class="product-info">
+                <div class="product-name">Peace Candle Set</div>
+                <div class="product-desc">Hand-poured soy candles in calming lavender &amp; eucalyptus</div>
+                <div class="product-footer">
+                  <div class="product-price">₹849</div>
+                  <button class="add-btn sorry-btn" data-name="Peace Candle Set" data-feeling="sorry">Add →</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card product-sorry">
+              <div class="product-img">📖</div>
+              <div class="product-info">
+                <div class="product-name">Handwritten Journal</div>
+                <div class="product-desc">Premium linen journal for fresh starts and new pages</div>
+                <div class="product-footer">
+                  <div class="product-price">₹1,199</div>
+                  <button class="add-btn sorry-btn" data-name="Handwritten Journal" data-feeling="sorry">Add →</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card product-sorry">
+              <div class="product-img">🍵</div>
+              <div class="product-info">
+                <div class="product-name">Calm Tea Hamper</div>
+                <div class="product-desc">Artisan teas from Darjeeling, Assam &amp; the Nilgiris</div>
+                <div class="product-footer">
+                  <div class="product-price">₹1,499</div>
+                  <button class="add-btn sorry-btn" data-name="Calm Tea Hamper" data-feeling="sorry">Add →</button>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /products -->
+        </div><!-- /split-content -->
+
+        <div class="feeling-visual sorry-visual">
+          <span class="visual-emoji">🕊️</span>
+          <div class="visual-text">Sorry</div>
+        </div>
+      </div><!-- /split -->
+    </div>
+  </section>
+
+  <!-- ─── LOVE SECTION ─── -->
+  <section class="section section-love" id="love">
+    <div class="section-inner">
+      <div class="section-number">02</div>
+      <div class="split split-reverse">
+
+        <div class="feeling-visual love-visual">
+          <span class="visual-emoji">🌹</span>
+          <div class="visual-text">Love</div>
+        </div>
+
+        <div class="split-content">
+          <div class="section-tag">Speak from the heart</div>
+          <div class="accent-bar"></div>
+          <h2 class="section-title">I Love<br>You</h2>
+          <p class="section-sub">Reds and whites — passion and purity in perfect balance. For the one who makes everything brighter.</p>
+          <div class="products">
+
+            <div class="product-card product-love">
+              <div class="product-img">
+                🌹
+                <span class="bestseller-badge">Top Pick</span>
+              </div>
+              <div class="product-info">
+                <div class="product-name">Eternal Rose Box</div>
+                <div class="product-desc">Preserved roses that last a year — love that endures</div>
+                <div class="product-footer">
+                  <div class="product-price">₹2,499</div>
+                  <button class="add-btn love-btn" data-name="Eternal Rose Box" data-feeling="love">Add →</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card product-love">
+              <div class="product-img">🍫</div>
+              <div class="product-info">
+                <div class="product-name">Artisan Chocolates</div>
+                <div class="product-desc">Belgian couverture, hand-dipped with rose petal &amp; cardamom</div>
+                <div class="product-footer">
+                  <div class="product-price">₹1,299</div>
+                  <button class="add-btn love-btn" data-name="Artisan Chocolates" data-feeling="love">Add →</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card product-love">
+              <div class="product-img">💌</div>
+              <div class="product-info">
+                <div class="product-name">Love Letter Kit</div>
+                <div class="product-desc">Wax seal, parchment cards, and red ink — timeless romance</div>
+                <div class="product-footer">
+                  <div class="product-price">₹899</div>
+                  <button class="add-btn love-btn" data-name="Love Letter Kit" data-feeling="love">Add →</button>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /products -->
+        </div><!-- /split-content -->
+      </div><!-- /split -->
+    </div>
+  </section>
+
+  <!-- ─── MISS SECTION ─── -->
+  <section class="section section-miss" id="miss">
+    <div class="section-inner">
+      <div class="section-number">03</div>
+      <div class="split">
+        <div class="split-content">
+          <div class="section-tag">Bridge the distance</div>
+          <div class="accent-bar"></div>
+          <h2 class="section-title">I Miss<br>You</h2>
+          <p class="section-sub">Greens and golds — the warmth of memory and the freshness of longing. Send a piece of your world to theirs.</p>
+          <div class="products">
+
+            <div class="product-card product-miss">
+              <div class="product-img">
+                🌿
+                <span class="bestseller-badge">Bestseller</span>
+              </div>
+              <div class="product-info">
+                <div class="product-name">Memory Succulent</div>
+                <div class="product-desc">A living plant that grows as your bond does — with a note</div>
+                <div class="product-footer">
+                  <div class="product-price">₹749</div>
+                  <button class="add-btn miss-btn" data-name="Memory Succulent" data-feeling="miss">Add →</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card product-miss">
+              <div class="product-img">🖼️</div>
+              <div class="product-info">
+                <div class="product-name">Custom Photo Locket</div>
+                <div class="product-desc">Sterling silver, holds two photos — keep them close always</div>
+                <div class="product-footer">
+                  <div class="product-price">₹1,999</div>
+                  <button class="add-btn miss-btn" data-name="Custom Photo Locket" data-feeling="miss">Add →</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card product-miss">
+              <div class="product-img">📦</div>
+              <div class="product-info">
+                <div class="product-name">Comfort Hamper</div>
+                <div class="product-desc">Cosy socks, cocoa mix, and a handwritten postcard from you</div>
+                <div class="product-footer">
+                  <div class="product-price">₹1,849</div>
+                  <button class="add-btn miss-btn" data-name="Comfort Hamper" data-feeling="miss">Add →</button>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /products -->
+        </div><!-- /split-content -->
+
+        <div class="feeling-visual miss-visual">
+          <span class="visual-emoji">🌿</span>
+          <div class="visual-text">Miss</div>
+        </div>
+      </div><!-- /split -->
+    </div>
+  </section>
+
+  <!-- ─── PERSONAL MESSAGE SECTION ─── -->
+  <section class="section-message" id="message">
+    <div class="section-message-inner">
+      <div class="section-center">
+        <div class="section-tag gold-tag">Your words, forever theirs</div>
+        <h2 class="section-title dark">A message only they can open</h2>
+        <p class="section-sub centered">Every order generates a private, permanent link. Share it once — your recipient sees a personalised message every time they visit.</p>
+      </div>
+
+      <div class="message-grid">
+
+        <!-- Preview Card -->
+        <div class="message-card">
+          <div class="card-label">Message preview</div>
+          <div class="message-preview">
+            <div class="message-preview-seal" id="previewSeal">💛</div>
+            <div class="message-preview-from" id="previewFrom">From Aditya, with love</div>
+            <div class="message-preview-text" id="previewText">"Every time you open this, know that somewhere, I am thinking of you and smiling."</div>
+          </div>
+          <div class="card-label">Your personal link</div>
+          <div class="link-box">
+            <span class="link-box-icon">🔗</span>
+            <span class="link-box-url" id="demoLink">giftheart.in/m/aditya-to-priya-4x8k</span>
+            <button class="link-box-copy" id="copyBtn">Copy</button>
+          </div>
+          <p class="link-hint">Share via WhatsApp, email, or just send the link — it opens a full-screen message experience for your recipient.</p>
+        </div>
+
+        <!-- Write Form -->
+        <div class="message-card">
+          <div class="card-title">Write your message</div>
+          <div class="message-form" id="messageForm">
+            <div class="form-group">
+              <label class="form-label">Your name</label>
+              <input class="form-input" type="text" id="senderName" placeholder="e.g. Aditya" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Their name</label>
+              <input class="form-input" type="text" id="recipientName" placeholder="e.g. Priya" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Feeling</label>
+              <select class="form-select" id="feelingSelect">
+                <option value="sorry">I'm Sorry</option>
+                <option value="love">I Love You</option>
+                <option value="miss">I Miss You</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Your message</label>
+              <textarea class="form-textarea" id="messageText" placeholder="Write something from the heart..."></textarea>
+            </div>
+            <button class="form-submit" id="generateBtn">Generate my link →</button>
+          </div>
+        </div>
+
+      </div><!-- /message-grid -->
+    </div>
+  </section>
+
+  <!-- ─── PAYMENT SECTION ─── -->
+  <section class="section-payment" id="payment">
+    <div class="section-center" style="margin-bottom:60px">
+      <div class="section-tag gold-tag">Seamless from cart to door</div>
+      <h2 class="section-title dark">Pay &amp; deliver with ease</h2>
+    </div>
+    <div class="payment-cards">
+
+      <div class="payment-card">
+        <div class="payment-icon paytm-icon">₹</div>
+        <div class="payment-card-title">Paytm Payments</div>
+        <div class="payment-card-desc">Pay securely with Paytm UPI, wallet, or any card. Instant confirmation. 100% encrypted.</div>
+        <a href="https://paytm.com" target="_blank" rel="noopener" class="payment-link">Pay via Paytm →</a>
+      </div>
+
+      <div class="payment-card">
+        <div class="payment-icon delivery-icon">📦</div>
+        <div class="payment-card-title">Delhivery Shipping</div>
+        <div class="payment-card-desc">Pan-India delivery in 2–4 days. Real-time tracking link sent to both you and your recipient.</div>
+        <a href="https://www.delhivery.com" target="_blank" rel="noopener" class="payment-link">Track your order →</a>
+      </div>
+
+      <div class="payment-card">
+        <div class="payment-icon shield-icon">🛡️</div>
+        <div class="payment-card-title">Safe &amp; Discreet</div>
+        <div class="payment-card-desc">All orders are gift-wrapped with no pricing inside. We never disclose sender details without consent.</div>
+        <span class="payment-link static">Privacy first, always</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── AUTH SECTION ─── -->
+  <section class="section-auth" id="auth">
+    <div class="auth-inner">
+
+      <div class="auth-text">
+        <div class="section-tag gold-tag">Your account</div>
+        <h2 class="auth-heading">Keep every<br>feeling safe</h2>
+        <p class="auth-sub">Sign in to access your messages, orders, and recipient links — always, from anywhere.</p>
+        <ul class="auth-features">
+          <li><span class="dot"></span>Lifetime access to your personal message links</li>
+          <li><span class="dot"></span>Order history and delivery tracking in one place</li>
+          <li><span class="dot"></span>Recipients see a fresh, animated welcome on every visit</li>
+          <li><span class="dot"></span>Your messages are encrypted — only link holders can read them</li>
+        </ul>
+      </div>
+
+      <div class="auth-card">
+        <div class="auth-card-title">Welcome to GiftHeart</div>
+        <div class="auth-card-sub">Sign in to save your messages and manage all your orders.</div>
+
+        <!-- Google -->
+        <button class="auth-btn" id="googleSignIn">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/>
+            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+          </svg>
+          Continue with Google
+        </button>
+
+        <!-- Apple -->
+        <button class="auth-btn" id="appleSignIn">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1a1a1a">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.19 1.28-2.17 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.36 2.77M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+          </svg>
+          Continue with Apple
+        </button>
+
+        <div class="auth-divider"><span>or</span></div>
+
+        <div class="auth-email-row">
+          <input class="form-input" type="email" id="emailInput" placeholder="your@email.com" />
+          <button class="email-go-btn" id="emailSignIn">→</button>
+        </div>
+
+        <p class="auth-note">By signing in you agree to our <a href="#">Terms</a> &amp; <a href="#">Privacy Policy</a>.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <div class="logo footer-logo">Gift<span>Heart</span></div>
+    <p>Curated gifts for every emotion — handpicked, beautifully packed, and delivered with care across India.</p>
+    <div class="footer-links">
+      <a href="#sorry">I'm Sorry</a>
+      <a href="#love">I Love You</a>
+      <a href="#miss">I Miss You</a>
+      <a href="#message">My Message</a>
+      <a href="#auth">Sign In</a>
+    </div>
+    <div class="footer-copy">© 2025 GiftHeart. Made with love in India. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
